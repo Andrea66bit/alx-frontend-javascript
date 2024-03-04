@@ -1,3 +1,5 @@
-export default function iterateThroughObject(reportwithiterator) {
-  return [...reportwithIterator].join(' | ');
+export default function iterateThroughObject(reportWithIterator) {
+  if (!reportWithIterator) {
+    console.log('Placeholder');
+  }
 }

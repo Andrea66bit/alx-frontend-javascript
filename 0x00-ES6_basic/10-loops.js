@@ -1,9 +1,13 @@
-export default function appendToEachArrayValue(array, appendstring) {
-  const arr = [];
-  for (const idx of array) {
-    const value = idx;
-    arr.push(appendingString + value);
+export default function appendToEachArrayValue(array, appendString) {
+  const array2 = [];
+  for (const value of array) {
+    array2.push(appendString + value);
   }
-
-  return arr;
+  return array2;
+}export default function appendToEachArrayValue(array, appendString) {
+  const array2 = [];
+  for (const value of array) {
+    array2.push(appendString + value);
+  }
+  return array2;
 }
