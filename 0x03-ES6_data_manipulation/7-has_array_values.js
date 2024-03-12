@@ -3,9 +3,9 @@ const hasValuesFromArray = (set, array) => {
     if (!set.has(item)) {
       return false;
     }
-   }
+  }
 
-   return true;
- };
+  return true;
+};
 
 export default hasValuesFromArray;

@@ -1,10 +1,10 @@
-const weakMap = new WeakMp();
+const weakMap = new WeakMap();
 
-const queryAPI = (end point) => {
-  let times = WeakMap.get(endpoint) || 0
-  
-  times =+ 1;
- 
+const queryAPI = (endpoint) => {
+  let times = weakMap.get(endpoint) || 0;
+
+  times += 1;
+
   weakMap.set(endpoint, times);
 
   if (times >= 5) {
